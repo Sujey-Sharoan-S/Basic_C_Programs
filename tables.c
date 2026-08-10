@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-    int tables, Num;
+    int tables, Num,i;
     printf("Enter any Number:");
     scanf("%d",&Num);
     for(i = 1;i<=10;i++)
@@ -9,5 +9,4 @@ int main()
         tables = Num * i;
         printf("%d * %d = %d\n",Num,i,tables);
     }
-    return 0;
 }
